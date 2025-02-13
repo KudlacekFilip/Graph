@@ -82,7 +82,7 @@ function draw() {
     }
   }
 
-  let cellSize = 30;
+  let cellSize = max(10, width / 48);
   let x = 0;
   let y = offsetY - height;
 
